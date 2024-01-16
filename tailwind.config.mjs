@@ -8,9 +8,6 @@ export default {
 			colors:{
 				'primary' : 'green'
 				},
-			backgroundImage: {
-				'bg-header' : "url('./img/header/REHeader.jpg')"
-			},
 			
 		},
 	},
