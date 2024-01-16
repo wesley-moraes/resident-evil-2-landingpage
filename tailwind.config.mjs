@@ -9,7 +9,7 @@ export default {
 				'primary' : 'green'
 				},
 			backgroundImage: {
-				'bg-header' : "url('src/assets/img/header/REHeader.jpg')"
+				'bg-header' : "url('./img/header/REHeader.jpg')"
 			},
 			
 		},
