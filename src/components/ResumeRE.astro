@@ -1,22 +1,24 @@
 ---
 
 ---
-<section class="w-full bg-black flex">
+<section class="w-full bg-black flex p-5">
     
-    <div class="flex-row">
-        <div class="flex  justify-center">
-            <div class="w-4/5 mt-9 mb-10 text-white ">
+    <div class="flex flex-wrap flex-row ">
+        <div class="flex justify-center md:w-2/5 md:mr-4">
+            <div class="w-4/5 mt-9 mb-6 text-white md:self-center">
                 <h1 class="text-3xl"><span class="text-red-700">R</span>esident <span class="text-red-700">E</span>vil 2 Remake</h1>
                 <h2 class="mb-3">Uma Jornada Arrepiante pela Recriação do Clássico</h2>
 
-                <p class="text-sm">lançado em 2019, é uma recriação intensa e aprimorada do clássico de survival horror lançado em 1998. 
+                <p class="text-sm md:text-base">lançado em 2019, é uma recriação intensa e aprimorada do clássico de survival horror lançado em 1998. 
                         Desenvolvido pela Capcom, o jogo mergulha os jogadores na assustadora cidade de Raccoon City, 
                         agora reimaginada com visuais de alta qualidade, mecânicas de jogabilidade modernas e 
                         uma narrativa mais envolvente.</p>
-            </div>
+            </div>            
         </div>
-        <div class="w-full pb-8 overflow-hidden flex items-center justify-center">
-            <div class="border-white ">
+        <div class="custom-border md:hidden"></div>
+        
+        <div class="w-full overflow-hidden md:w-2/4 md:flex ">
+            <div class="md:custom-border-right md:self-center">
                 <img src="./img/raccoon-city/wellcome-sign-raccoon-city.jpg"/>
             </div>
         </div>
@@ -24,3 +26,35 @@
     
 </section>
     <div></div>
+
+<style>
+    .custom-border{
+    width: 80%;
+    margin: 0 auto;
+	line-height: 1.5em;
+	font-weight: 200;
+	padding: 10px;
+	border-right: 2px;
+	border-left: 0;
+	border-style: solid;
+/* 	border-image: linear-gradient(to bottom, #ccc, #555 66%, #181818) 1 100%; */
+    background-image: linear-gradient(to right, rgb(255, 255, 255) 10%,rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 1) 100%);
+                    
+  background-size: 100% 1px;
+  background-position: 0% 0%, 0% 100%;
+  background-repeat: no-repeat;
+    }
+
+    .custom-border-right{
+        width: 30vw;
+	font-size: 1em;
+	line-height: 1.5em;
+	font-weight: 200;
+	padding: 0 4vw 4vw;
+	border-right: 2px;
+	border-left: 0;
+	border-style: solid;
+/* 	border-image: linear-gradient(to bottom, #ccc, #555 66%, #181818) 1 100%; */
+	border-image: linear-gradient(to bottom, #181818, #eee, #181818) 1 100%;
+    }
+</style>
