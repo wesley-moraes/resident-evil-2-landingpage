@@ -1,10 +1,10 @@
 ---
 
 ---
-<section class="w-full bg-black flex p-5">
+<section class="w-full bg-raccoon-city flex p-5 ">
     
-    <div class="flex flex-wrap flex-row ">
-        <div class="flex justify-center md:w-2/5 md:mr-4">
+    <div class="flex flex-wrap flex-row md:justify-center">
+        <div class="flex justify-center md:w-2/5 md:mr-6 custom-border-left">
             <div class="w-4/5 mt-9 mb-6 text-white md:self-center">
                 <h1 class="text-3xl"><span class="text-red-700">R</span>esident <span class="text-red-700">E</span>vil 2 Remake</h1>
                 <h2 class="mb-3">Uma Jornada Arrepiante pela Recriação do Clássico</h2>
@@ -16,9 +16,9 @@
             </div>            
         </div>
         <div class="custom-border md:hidden"></div>
-        
-        <div class="w-full overflow-hidden md:w-2/4 md:flex ">
-            <div class="md:custom-border-right md:self-center">
+
+        <div class="w-full overflow-hidden md:w-2/4 md:flex p-5">
+            <div class=" md:self-center md:shadow-lg md:shadow-gray-400">
                 <img src="./img/raccoon-city/wellcome-sign-raccoon-city.jpg"/>
             </div>
         </div>
@@ -28,33 +28,53 @@
     <div></div>
 
 <style>
+    .bg-raccoon-city{
+        background-color: rgba(0, 0, 0, .4);
+        background-image: url("../img/raccoon-city/dark-cement-wall-background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     .custom-border{
-    width: 80%;
-    margin: 0 auto;
-	line-height: 1.5em;
-	font-weight: 200;
-	padding: 10px;
-	border-right: 2px;
-	border-left: 0;
-	border-style: solid;
-/* 	border-image: linear-gradient(to bottom, #ccc, #555 66%, #181818) 1 100%; */
-    background-image: linear-gradient(to right, rgb(255, 255, 255) 10%,rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 1) 100%);
-                    
-  background-size: 100% 1px;
-  background-position: 0% 0%, 0% 100%;
-  background-repeat: no-repeat;
+        width: 80%;
+        margin: 0 auto;
+        line-height: 1.5em;
+        font-weight: 200;
+        padding: 10px;
+        border-right: 2px;
+        border-left: 0;
+        border-style: solid;
+    /* 	border-image: linear-gradient(to bottom, #ccc, #555 66%, #181818) 1 100%; */
+        background-image: linear-gradient(to right, rgb(255, 255, 255) 10%,rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 1) 100%);
+                        
+        background-size: 100% 1px;
+        background-position: 0% 0%, 0% 100%;
+        background-repeat: no-repeat;
+    }
+
+
+    @media (min-width: 768px) { 
+
+        .custom-border-left{
+        
+        border-right: 2px;
+        border-left: 0px ;
+        border-style: solid;
+        border-image: linear-gradient(to bottom, #181818, #eee, #181818) 1 100%;
+        }
+
     }
 
     .custom-border-right{
         width: 30vw;
-	font-size: 1em;
-	line-height: 1.5em;
-	font-weight: 200;
-	padding: 0 4vw 4vw;
-	border-right: 2px;
-	border-left: 0;
-	border-style: solid;
-/* 	border-image: linear-gradient(to bottom, #ccc, #555 66%, #181818) 1 100%; */
-	border-image: linear-gradient(to bottom, #181818, #eee, #181818) 1 100%;
+        font-size: 1em;
+        line-height: 1.5em;
+        font-weight: 200;
+        padding: 0 4vw 4vw;
+        border-right: 2px;
+        border-left: 0;
+        border-style: solid;
+    /* 	border-image: linear-gradient(to bottom, #ccc, #555 66%, #181818) 1 100%; */
+        border-image: linear-gradient(to bottom, #181818, #eee, #181818) 1 100%;
     }
 </style>
