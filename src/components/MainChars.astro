@@ -2,22 +2,30 @@
 
 ---
 
-<section class="w-full h-screen">
-    <div class="w-full h-screen">
-        <div id="leon" class="w-full h-1/2 border border-rose-600">
-            <div>
-                <h3> Leon Scott Kenedy </h3>
+<section class="w-full h-screen ">
+    <div class="w-full h-screen flex flex-col md:flex-row ">
+        <div id="leon" class="
+                            w-full h-1/2 flex items-end 
+                            md:w-1/2 md:h-screen 
+                        ">
+            <div class="w-full info-char text-white">
+                <h3 class=""> Leon Scott Kenedy </h3>
                 <p> <span>Nascimento:</span> <span> 1977 </span> </p>
                 <p> <span>Altura:</span> <span> 1,80 </span> </p>
                 <p> <span>Afiliações:</span> <span> RPD </span> </p>
             </div>
         </div>
-        <div id="Claire" class="w-full h-1/2 border border-rose-300">
-            <div>
-                <h3> Claire Redfield </h3>
-                <p> <span>Nascimento:</span> <span> 1979 </span> </p>
-                <p> <span>Altura:</span> <span> 1,69 </span> </p>
-                <p> <span>Afiliações:</span> <span> Terra Save </span> </p>
+        <div id="claire" class="
+                w-full h-1/2 flex items-end justify-end
+                md:w-1/2 md:h-screen
+            ">
+            <div class="w-full info-char text-white flex justify-end">
+                <div >
+                    <h3> Claire Redfield </h3>
+                    <p> <span>Nascimento:</span> <span> 1979 </span> </p>
+                    <p> <span>Altura:</span> <span> 1,69 </span> </p>
+                    <p> <span>Afiliações:</span> <span> Terra Save </span> </p>
+                </div>
             </div>
         </div>
     </div>
@@ -27,8 +35,20 @@
 <style>
     #leon{
         background-image: url("../img/chars/Leon-S-Kennedy.png");
-        background-position: -400px;
+        background-position: 83% 1%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    #claire{
+        background-image: url("../img/chars/Claire-Redfield.png");
+        background-position: 83% 1%;
+        background-repeat: no-repeat;
+        background-size: 100%;
     }
 
+    .info-char{
+        background-color: rgba(15, 15, 15, 0.534);
+        padding: 2%;
+    }
 
 </style>
