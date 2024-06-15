@@ -1,4 +1,4 @@
-# Astro Starter Kit: Basics
+# Astro: Resident Evil Website
 
 ## Deploy: [Resident Evil 2 Website](https://resident-evil-2-landingpage.vercel.app/)
 
